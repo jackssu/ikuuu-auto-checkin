@@ -1,4 +1,4 @@
-## iKuuu 定时自动签到12
+## iKuuu 定时自动签到525
 
 [![详细文档](https://img.shields.io/badge/详细文档-blue)](https://ewigl.github.io/notes/posts/programming/github-actions/)
 
