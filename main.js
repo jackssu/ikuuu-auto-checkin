@@ -1,4 +1,4 @@
-const host = process.env.HOST || "ikuuu.one";
+const host = process.env.HOST || "ikuuu.de";
 
 const protocolPrefix = "https://";
 const logInUrl = `${protocolPrefix}${host}/auth/login`;
