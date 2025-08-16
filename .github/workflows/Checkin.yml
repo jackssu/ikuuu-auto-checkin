@@ -5,7 +5,7 @@ on:
   schedule:
     # Actions 任务延迟过高，提前一些时间。
     # UTC+8 ~ 07:33
-    - cron: "33 23 * * *"
+    - cron: "33 16 * * *"
 
 jobs:
   checkin:
