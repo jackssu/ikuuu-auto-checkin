@@ -1,4 +1,4 @@
-## iKuuu 定时自动签到9.14
+## iKuuu 定时自动签到10.14
 
 > 利用 Github Actions 实现自动签到，支持多账户，支持 Telegram 通知。
 
