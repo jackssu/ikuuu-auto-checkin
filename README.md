@@ -6,7 +6,7 @@
 
 ### 仓库变量
 
-- **ACCOUNTS**：账户信息，**多个**账户配置示例如下。推荐使用 [JSON 格式化工具](https://jsoneditoronline.org/) 进行编辑以避免格式出错。
+- **ACCOUNTS**：账户信息，账户配置示例如下。推荐使用 [JSON 格式化工具](https://jsoneditoronline.org/) 进行编辑以避免格式出错。
 
   ```json
   [
@@ -17,13 +17,13 @@
     },
     {
       "name": "这里填写账户备注",
-      "email": "这里填写邮箱",
-      "passwd": "这里填写密码"
+      "email": "只有一个账号可以删除这一条{}记录",
+      "passwd": "有两个以上账号自行在下方添加新的{}记录"
     }
   ]
   ```
 
-- **HOST**: （可选）iKuuu 的域名，不设置时默认为 `ikuuu.one`。
+- **HOST**: iKuuu 的域名，不设置时默认为 `ikuuu.nl`，iKuuu 更改域名时必须同步修改。iKuuu 经常更换域名，需要随时注意修改。
 - **TELEGRAM_TOKEN**: （可选）Telegram 通知的 Bot Token。
 - **TELEGRAM_TO**: （可选）Telegram 通知的 Chat ID。
 
@@ -33,7 +33,7 @@
 2. 在 fork 后的仓库中启用 Actions。
 3. 配置仓库变量。
 
-详细文档: https://ewigl.github.io/notes/posts/programming/github-actions/
+详细文档: https://ewigl.github.io/projects/github-actions-tasks/
 
 ### 注意事项
 
